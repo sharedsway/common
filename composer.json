@@ -1,0 +1,19 @@
+{
+    "name": "sharedsway/common",
+    "description": "common",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Java Z",
+            "email": "284141050@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sharedsway\\Common\\": "src/"
+        }
+    },
+    "require": {}
+}
