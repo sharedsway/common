@@ -15,5 +15,17 @@
             "Sharedsway\\Common\\": "src/"
         }
     },
-    "require": {}
+    "autoload-dev": {
+        "psr-4": {
+            "Sharedsway\\Common\\Test\\Unit\\": "tests/unit/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*"
+    },
+    "suggests":{
+    },
+    "require-dev": {
+        "codeception/codeception": "3.0.x-dev"
+    }
 }
